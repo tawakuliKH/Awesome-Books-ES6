@@ -1,4 +1,5 @@
-import BookCollect from './BookCollectClass';
+/* eslint-disable import/extensions */
+import BookCollect from './BookCollectClass.js';
 
 const showBooks = () => {
   const BookCollection = new BookCollect();
